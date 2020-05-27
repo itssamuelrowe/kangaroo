@@ -9,7 +9,7 @@ const Task = props => {
 	return (
 		<div className="task">
 			<div className="task-header">
-				<div>
+				<div style={{ fontSize: 24 }}>
 					{ props.task.title }
 				</div>
 				<select value={ props.task.status } onChange={ onStatusChange }>
