@@ -7,11 +7,35 @@ const mockTasks = [
     	description: 'The store, actions, and reducers, oh my!',
     	status: 'Unstarted',
   	},
+ 	{
+    	id: uniqueId(),
+    	title: 'Learn React',
+    	description: 'The components, state, and props. I love React!',
+    	status: 'Completed',
+  	},
   	{
     	id: uniqueId(),
-    	title: 'Marry You Know Who',
+    	title: 'Bali, where you at?',
+    	description: 'Money, where you at?',
+    	status: 'In Progress',
+  	},
+  	{
+    	id: uniqueId(),
+    	title: 'Become a billionaire',
     	description: 'Stop day dreaming, man!',
     	status: 'In Progress',
+  	},
+  	{
+    	id: uniqueId(),
+    	title: 'Build Hubble',
+    	description: 'I am working on it!',
+    	status: 'In Progress',
+  	},
+  	{
+    	id: uniqueId(),
+    	title: 'Learn Docker',
+    	description: 'The images, commands, and much more...',
+    	status: 'Unstarted',
   	},
 ];
 

@@ -1,19 +1,6 @@
 import { uniqueId } from '../actions';
 
-const mockTasks = [
- 	{
-    	id: uniqueId(),
-    	title: 'Learn Redux',
-    	description: 'The store, actions, and reducers, oh my!',
-    	status: 'Unstarted',
-  	},
-  	{
-    	id: uniqueId(),
-    	title: 'Marry You Know Who',
-    	description: 'Stop day dreaming, man!',
-    	status: 'In Progress',
-  	},
-];
+
 
 export default function tasks(state = { tasks: mockTasks }, action) {
 	if (action.type === 'CREATE_TASK') {
